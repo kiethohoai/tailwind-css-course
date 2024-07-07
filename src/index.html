@@ -17,8 +17,17 @@
             <img src="./assets/images/logo-inverted.png" width="50" />
             <div class="font-bold text-2xl">tw:<span class="text-sky-900">mf</span></div>
           </div>
+          <!-- todo Mobile -->
+          <div class="block md:hidden ml-auto p-4 my-auto cursor-pointer">
+            <div>
+              <div class="w-8 bg-zinc-200 rounded-full h-1"></div>
+              <div class="w-8 bg-zinc-200 rounded-full h-1 mt-1"></div>
+              <div class="w-8 bg-zinc-200 rounded-full h-1 mt-1"></div>
+            </div>
+          </div>
 
-          <div class="flex-1 flex items-center justify-end">
+          <!-- todo PC -->
+          <div class="md:flex hidden flex-1 items-center justify-end">
             <div class="menu-item">
               <span>Home</span>
             </div>
@@ -27,7 +36,9 @@
             </div>
             <div class="menu-item group">
               <span>Tickets</span>
-              <div class="group-hover:block hidden absolute top-full bg-pink-500 right-0 whitespace-nowrap rounded-b-md text-right">
+              <div
+                class="group-hover:block hidden absolute top-full bg-pink-500 right-0 whitespace-nowrap rounded-b-md text-right"
+              >
                 <div
                   class="p-4 font-bold hover:bg-white/5 hover:text-zinc-200 transition-colors ease-in-out cursor-pointer text-pink-200"
                 >
